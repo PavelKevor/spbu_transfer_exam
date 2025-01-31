@@ -80,6 +80,6 @@ if __name__ == "__main__":
     }
     spanning_tree5 = build_spanning_tree(graph5)
     expected_spanning_tree5 = [(0, 1), (1, 2), (2, 3), (3, 4)]
-    assert set(spanning_tree5) == set(expected_spanning_tree5), f"Ошибка в графе 5: {spanning_tree5}"
+    assert set(spanning_tree5) == set(expected_spanning_tree5), f"Ошибка: {spanning_tree5}"
 
     print("Done!")
